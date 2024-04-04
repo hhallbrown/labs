@@ -26,6 +26,15 @@ public class Celebrity
 	}
 
 	/**
+	 * Creates a Celebrity instance with a preset answer and clue
+	 */
+	public Celebrity()
+	{
+		answer = "Michael Cera";
+		hint = "Creator of CeraVe and most beautiful male actor in history";
+	}
+	
+	/**
 	 * Supplies the clue for the celebrity
 	 * @return
 	 */
