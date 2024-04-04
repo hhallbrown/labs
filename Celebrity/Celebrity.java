@@ -21,6 +21,8 @@ public class Celebrity
 	 */
 	public Celebrity(String answer, String clue)
 	{
+		this.answer = answer;
+		hint = clue;
 	}
 
 	/**
@@ -29,7 +31,7 @@ public class Celebrity
 	 */
 	public String getClue()
 	{
-		return null;
+		return hint;
 	}
 
 	/**
@@ -38,7 +40,7 @@ public class Celebrity
 	 */
 	public String getAnswer()
 	{
-		return null;
+		return answer;
 	}
 
 	/**
@@ -47,7 +49,7 @@ public class Celebrity
 	 */
 	public void setClue(String clue)
 	{
-		
+		hint = clue;
 	}
 
 	/**
@@ -56,7 +58,7 @@ public class Celebrity
 	 */
 	public void setAnswer(String answer)
 	{
-		
+		this.answer = answer;
 	}
 	
 	/**
@@ -65,7 +67,7 @@ public class Celebrity
 	@Override
 	public String toString()
 	{
-		return null;
+		return "The celebrity is " + answer;
 	}
 	
 }
